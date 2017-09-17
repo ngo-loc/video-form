@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Video From</legend>
+        <form>
+            <div class="row">
+                <label>Video Id:</label>
+                <div class="form-control">
+                    <input id="video-id" type="text" name="Video-Id">
+                    <span id="video-id-error" class="error-color"></span>
+
+                </div>
+            </div>
+            <div class="row">
+                <label>Video Name:</label>
+                <div class="form-control">
+                    <input class="w-60" type="text" name="Video-Name" id="video-name">
+                    <span id="video-name-error" class="error-color"></span>
+                </div>
+            </div>
+            <div class="row">
+                <label>Video Description:</label>
+                <div class="form-control">
+                    <textarea name="Video-Description" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <label>Video Keyword:</label>
+                <div class="form-control">
+                    <input type="text" name="Video-Keyword">
+                </div>
+            </div>
+            <div class="row">
+                <label>Video Category:</label>
+                <div class="form-control">
+                    <input type="checkbox" name="Video-Category">Game
+                    <input type="checkbox" name="Video-Category">Music
+                    <input type="checkbox" name="Video-Category">Developer
+                    <input type="checkbox" name="Video-Category">Others
+                </div>
+            </div>
+            <div class="row">
+                <label>Status</label>
+                <div class="form-control">
+                    <input type="checkbox" name="Status">
+                </div>
+            </div>
+            <div>
+                <label>&nbsp;</label>
+                <div class="form-control">
+                    <input class="sub-re" type="submit"  value="submit" onclick = " return myFunction();">
+                    <input type="reset" value="reset">
+                </div>
+            </div>
+    </fieldset>
+</form>
+<script type="text/javascript" src="script.js"> </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+*{
+    font-size: 16px;
+}
+label{
+    float: left;
+    width: 15%;
+}
+.row{
+    margin-right: 15px;
+    margin-left: 30px;
+    padding: 5px;
+}
+fieldset{
+    width: 50%;
+}
+.sub-re{
+
+}
+.error-color{
+    color: red;
+}
+.video-ok{
+    color: orange;
+}
+.w-60{
+    width: 60%;
+}
